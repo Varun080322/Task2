@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task2 By Varun</title>
+    <link rel="stylesheet" href="Task2.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Tour And Travelers</h1>
+        <p>Book your trip and enjoy Vacation and Holidays</p>
+    </header>
+    <div class="navbar">
+        <ul>
+            <li>
+                <a href="https://www.tripadvisor.in/Attractions-g1139022-Activities-Hissar_District_Haryana.html"
+                    target="_blank">List of Places</a>
+            </li>
+            <li><a href="#details">Details</a></li>
+            <li><a href="#form">Form</a></li>
+            <li><a href="#main">Contact</a></li>
+        </ul>
+    </div>
+    <div class="main" id="main">
+        <div class="contact" id="contact">
+            <h2>Contacts</h2>
+            <ol>
+                <li><b>Address:</b> Unthinkable Solution LLP, Hissar</li>
+                <li><b>Phone:</b> +91 9876543210</li>
+                <li><b>Email:</b> Varun@abc.com</li>
+            </ol>
+        </div>
+        <div class="details" id="details">
+            <h2>Details</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>S.No.</th>
+                        <th>Package</th>
+                        <th>Days</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>10000</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>15000</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>21000</td>
+                        <td>8</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="form" id="form">
+            <h2>Form</h2>
+            <h3>Please fill the form details Accordingly</h3>
+            <form action="#">
+                <div class="left">
+                    <label for="Name">Name</label>
+                    <div>
+                        <input type="text" name="Name" id="Name" placeholder="Enter Name" />
+                    </div>
+                    <label for="Email">Email</label>
+                    <div>
+                        <input type="email" name="Email" id="Email" placeholder="Enter Email" />
+                    </div>
+
+                    <label for="Age">Age</label><br />
+                    <div>
+                        <input type="number" name="Age" id="Age" placeholder="Enter Age" />
+                    </div>
+                    <label for="package">Package</label><br />
+                    <div>
+                        <input type="radio" name="package" id="3Days" />
+                        <label for="3Days">3 Days</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="package" id="5Days" />
+                        <label for="5Days">5 Days</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="package" id="8Days" />
+                        <label for="8Days">8 Days</label>
+                    </div>
+                </div>
+                <div class="right">
+                    <label for="Date">Date of travel</label><br />
+                    <div>
+                        <input type="date" name="Date" id="Date" />
+                    </div>
+                    <label for="people">No. of people</label><br />
+                    <div>
+                        <input type="number" name="people" id="people" />
+                    </div>
+                    <label for="Place">Place</label>
+                    <div>
+                        <textarea name="Place" id="Place" cols="30" rows="1"></textarea>
+                    </div>
+
+                    <label for="Add-on">Add-on's</label><br />
+                    <div>
+                        <input type="checkbox" name="Add-on" id="1" />
+                        <label for="1">Tour Guide</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Add-on" id="2" />
+                        <label for="2">Camping</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Add-on" id="3" />
+                        <label for="2">Bonfire party</label>
+                    </div>
+                </div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2024</p>
+    </footer>
+</body>
+
+</html>
